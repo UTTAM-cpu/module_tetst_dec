@@ -157,8 +157,6 @@ top: 317px;
     }
 }
 .card:hover {
-    
-    
     color: white;
     animation-name: example;
     animation-duration: 0.3s;
@@ -168,3 +166,7 @@ top: 317px;
     from {background-color: white;}
     to {background-color: black;}
   }
+  .card{
+    overflow-x: scroll;
+  }
+  
